@@ -1,0 +1,33 @@
+/*navigation bar list*/
+ul.navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/*navigation bar formatting*/
+li.navigation {
+  float: right;
+  display: block;
+  paddings: 8px;
+  background-color: #E5ECF4;
+}
+
+/*box in text and center on page*/
+.boxed{
+  border: 3px solid black;
+  width: 800px;
+  height: 800 px;
+  margin: 10px auto 10px auto;
+  background-color: #E5ECF4;
+}
+/*heading background color is light blue*/
+h2{
+  background-color: #E5ECF4;
+}
+
+/*anything with class bgColor will have light blue background*/
+.bgColor{
+  background-color: #E5ECF4;
+}

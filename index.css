@@ -1,0 +1,87 @@
+/*creates flex container, makes background color an offwhite*/
+.flex-container {
+  display: flex;
+  background-color: #FFFFFF;
+}
+
+/*creates the smaller boxes in the flex container, changes the spacing between boxes, makes the background color light blue
+and the font size 30 pixels*/
+.flex-container > div {
+  background-color: #E5ECF4;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+/*creates a second flex container, makes background color an offwhite, centers the container */
+.flex-container2 {
+  display: flex;
+  background-color: #FFFFFF;
+  justify-content: center;
+}
+
+/*creates the smaller boxes in the flex container, changes the spacing between boxes, makes the background color light blue
+and the font size 30 pixels*/
+
+.flex-container2 > div {
+  background-color: #E5ECF4;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.flex-container3 {
+  display: flex;
+  background-color: #FFFFFF;
+  justify-content: center;
+}
+
+.flex-container3 > div {
+  background-color: #E5ECF4;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+/*changes font size*/
+p{
+  font-size: 24px;
+}
+
+/*changes font size*/
+ul.concerts{
+  font-size: 20px;
+}
+
+/*navigation bar list*/
+ul.navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/*navigation bar formatting*/
+li.navigation {
+  float: right;
+  display: block;
+  paddings: 8px;
+  background-color: #E5ECF4;
+}
+
+/*Image resizing*/
+img.firstImg{
+
+  width: 250px;
+  height: 180px;
+}
+
+/*align image to left of page*/
+img.align-left {
+float: left;
+margin-right: 10px;}
+
+/*large font size for website title*/
+h1.websiteTitle{
+  font-size:  40px;
+}

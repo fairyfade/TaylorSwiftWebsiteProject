@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ 	<!--Website title-->
+ 	<title>Taylor Swift Tickets</title>
+ 	<!--link to style sheet-->
+ 	<link href="tickets.css" rel="stylesheet" type="text/css">
+ </head>
+
+<!--makes body background color offwhite-->
+ <body style="background-color:#FFFFFF;">
+	<h1 class="websiteTitle">Taylor Swift</h1>
+
+	<!--navigation bar-->
+	<ul class="navigation">
+  		<li class="navigation"><a href="index.html"> Home | </a></li>
+  		<li class="navigation"><a href="#about"> About |</a></li>
+  		<li class="navigation"><a href="#videos"> Videos |</a></li>
+  		<li class="navigation"><a href="#news"> News |</a></li>
+  		<li class="navigation"><a href="#ticketsEvents"> Tickets/Events |</a></li>
+	</ul> 
+
+	<!--divider line-->
+	<hr>
+	<!--Information about COVID-19 Attendance Guidelines -->
+	<p>*Tickets are limited to 5 per order</p>
+	<div class="boxed">
+		<h3>COVID-19 Attendance Guidelines</h3>
+		<p>Due to the on-going COVID-19 pandemic, guests will be required to wear face-coverings (except when eating/drinking)</p>
+		<p>Guests will also be expected to provide proof of vaccination or a negative COVID-test(within the past 48 hours) to enter the venue</p>
+	</div>
+
+	<!--divider line-->
+	<hr>
+
+	<!--New Section more about Buying Tickets-->
+	<div class="bgColor">
+		<h2>Buy Tickets</h2>
+
+		<!--Form for user to choose the date/location they'd like to attend-->
+		<form action="http://www.example.com/ticketInfo.php">
+			<p>Select date/location:
+				<br />
+				<p><input type="radio" name="date/location" value="09/15/2022" />September
+				16th, 2022 | Madison Square Garden, New York, New York, USA</p>
+				<p><input type="radio" name="date/location" value="09/17/2022" />September 17th, 2022 | Madison Square Garden, New York, New York, USA</p>
+				<p><input type="radio" name="date/location" value="09/23/2022" />September 23rd, 2022 | Microsoft Theater, Los Angeles, California, USA</p>
+			</p>
+		</form>
+
+		<!--DropDown Form for user to select the number of tickets they would like to buy-->
+		<form action="http://www.example.com/ticketInfo.php">
+			<p>Select number of tickets</p>
+			<select name="totalTickets">
+				<option value=1>1</option>
+				<option value=2>2</option>
+				<option value=3>3</option>
+				<option value=4>4</option>
+				<option value=5>5</option>
+			</select>
+		</form>
+
+		<!--Text box form for user to input email address where they'll recieve their tickets-->
+		<form action="http://www.example.com/ticketInfo.php">
+			<p>Enter Email (you will recieve tickets at this email)</p>
+			<textarea name="email" cols=30>Enter e-mail address</textarea>
+		</form>
+
+		<!--Submit Button-->
+		<form action="http://www.example.com/ticketInfo.php">
+			<input type="submit" name="submit" value="Submit" />
+		</form>
+	</div>
+</body>
+</html>
